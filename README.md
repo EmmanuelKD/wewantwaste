@@ -1,7 +1,89 @@
 # Vite React + TypeScript App
 
-This is a Vite-powered React app using TypeScript. Before running the frontend, you **must** start the backend server.
+# Skip Hire Booking UI
 
+A modern and responsive skip hire booking interface built with **React**, **Vite**, **Tailwind CSS**, and **shadcn/ui**. This project includes a step-by-step wizard (Postcode → Waste Type → Select Skip → Permit Check → Choose Date → Payment) for selecting skip hire options with contextual state management using React Context API.
+
+---
+
+##  Features
+
+-  Fast Vite + React setup
+-  Styled with Tailwind CSS
+-  UI components from [shadcn/ui](https://ui.shadcn.dev/)
+-  Step-based booking flow using React Context API
+-  Responsive design
+-  Animated UI with contextual selections
+
+---
+
+## Project Structure
+
+```bash
+src/
+├── components/       # Reusable UI components
+├── context/          # React Context API for global state (steps, data)
+├── pages/            # Step pages (Postcode, Waste Type, etc.)
+├── assets/           # Static assets like images
+├── hooks/            # React hooks and queries to api
+├── api/              # Fetch methods to backend
+├── lib/              # Utility codes 
+├── App.tsx           # Main app entry point
+└── main.tsx          # Vite + React bootstrap
+```
+
+---
+
+## 🛠️ Tech Stack
+
+- [Vite](https://vitejs.dev/) – Build tool
+- [React](https://reactjs.org/) – UI Library
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS
+- [shadcn/ui](https://ui.shadcn.dev/) – Accessible and customizable UI components
+- [Lucide Icons](https://lucide.dev/) – Icon set used via `lucide-react`
+- [React Context API](https://reactjs.org/docs/context.html) – Global state sharing
+
+---
+
+## Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/skip-hire-ui.git
+cd skip-hire-ui
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run the development server
+```bash
+npm run dev
+```
+
+---
+
+## Build for Production
+```bash
+npm run build
+```
+
+---
+
+## Resources & References
+
+- [Vite Docs](https://vitejs.dev/guide/)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
+- [shadcn/ui Docs](https://ui.shadcn.dev/docs)
+- [React Context API](https://reactjs.org/docs/context.html)
+- [Lucide Icons](https://lucide.dev/)
+- [Headless UI](https://headlessui.com/) (used by shadcn components)
+
+---
+ 
+ 
 ## Prerequisites
 
 - Node.js (v18+ recommended)
