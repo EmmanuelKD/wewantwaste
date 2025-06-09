@@ -34,7 +34,7 @@ src/
 
 ---
 
-## 🛠️ Tech Stack
+## Resources & References
 
 - [Vite](https://vitejs.dev/) – Build tool
 - [React](https://reactjs.org/) – UI Library
@@ -43,46 +43,8 @@ src/
 - [Lucide Icons](https://lucide.dev/) – Icon set used via `lucide-react`
 - [React Context API](https://reactjs.org/docs/context.html) – Global state sharing
 
+    
 ---
-
-## Getting Started
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/your-username/skip-hire-ui.git
-cd skip-hire-ui
-```
-
-### 2. Install dependencies
-```bash
-npm install
-```
-
-### 3. Run the development server
-```bash
-npm run dev
-```
-
----
-
-## Build for Production
-```bash
-npm run build
-```
-
----
-
-## Resources & References
-
-- [Vite Docs](https://vitejs.dev/guide/)
-- [Tailwind CSS Docs](https://tailwindcss.com/docs)
-- [shadcn/ui Docs](https://ui.shadcn.dev/docs)
-- [React Context API](https://reactjs.org/docs/context.html)
-- [Lucide Icons](https://lucide.dev/)
-- [Headless UI](https://headlessui.com/) (used by shadcn components)
-
----
- 
  
 ## Prerequisites
 
