@@ -1,7 +1,6 @@
-import React from 'react'
-import { CheckOutlined } from '@ant-design/icons'
-import { cn } from '@/lib/utils'
-import { useCheckout } from '@/context/checkout-context'
+import { useCheckout } from '@/context/checkout-context';
+import { cn } from '@/lib/utils';
+import { CheckOutlined } from '@ant-design/icons';
 
  
 
