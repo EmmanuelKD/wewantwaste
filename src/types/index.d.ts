@@ -1,5 +1,6 @@
 
-export type SkipOptions = {
+
+export type SkipOption = {
     id: number;
     size: number;
     hire_period_days: number;

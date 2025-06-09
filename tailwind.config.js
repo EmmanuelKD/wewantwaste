@@ -18,17 +18,15 @@ export default {
 				]
 			},
 			colors: {
-				uba: {
-					red: '#ff0000',
-					50:  '#ffe5e5',
-					100: '#ffb8b8',
-					200: '#ff8a8a',
-					300: '#ff5c5c',
-					400: '#ff2e2e',
-					600: '#cc0000',
-					700: '#990000',
-					800: '#660000',
-					900: '#330000',
+				waste: {
+					primary: '#0A2540', // deep navy blue
+					secondary: '#F2F4F7', // light gray background
+					accent: '#0052CC', // bright blue for buttons and active steps
+					"accent-700": '#0041A8',
+					yellow: '#FFD600', // skip color
+					price: '#1B1F23', // strong text
+					label: '#667085', // light label text
+					border: '#E4E7EC', // light border
 				},
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
