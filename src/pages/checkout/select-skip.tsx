@@ -1,5 +1,5 @@
 import SkipCard from "@/components/custom/skip-card";
-import StepperHeader from "@/components/custom/step-head";
+import StepperHeader from "@/components/custom/steep-head";
 import { useCheckout } from "@/context/checkout-context";
 // import { useSkipOptions } from "@/hooks/use-skip";
 

@@ -20,7 +20,7 @@ export default function StepperHeader() {
           )}
         >
           {step.isCompleted ? (
-            <CheckOutlined className="text-green-400 text-xs" />
+            <CheckOutlined className="text-waste-yellow text-xs" />
           ) : (
             <div
               className={cn(

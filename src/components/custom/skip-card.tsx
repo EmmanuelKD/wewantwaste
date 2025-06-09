@@ -45,7 +45,7 @@ export default function SkipCard({ skip, selected, onSelect }: Props) {
       <div className="flex row flex-nowrap items-center justify-between ">
         <h3 className="text-lg font-semibold mb-1">{skip.size} Yard Skip</h3>
         {!skip.allowed_on_road && (
-          <span className="text-xs border-[1px]  text-waste-yellow bg-primary px-2 py-1 rounded-full">
+          <span className="text-xs border-[1px]  text-waste-yellow bg-waste-primary px-2 py-1 rounded-full">
             <span className="inline-flex items-center mr-2">
               <WarningOutlined />
             </span>
