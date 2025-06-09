@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { CheckCircle } from "lucide-react";
 import type { SkipOption } from "@/types/index";
-
+import { WarningOutlined } from "@ant-design/icons";
 
 type Props = {
   skip: SkipOption;
@@ -45,7 +45,10 @@ export default function SkipCard({ skip, selected, onSelect }: Props) {
       <div className="flex row flex-nowrap items-center justify-between ">
         <h3 className="text-lg font-semibold mb-1">{skip.size} Yard Skip</h3>
         {!skip.allowed_on_road && (
-          <span className="text-xs text-red-500 bg-red-100 px-2 py-1 rounded-full">
+          <span className="text-xs border-[1px]  text-waste-yellow bg-primary px-2 py-1 rounded-full">
+            <span className="inline-flex items-center mr-2">
+              <WarningOutlined />
+            </span>
             Not allowed on road
           </span>
         )}

@@ -2,6 +2,7 @@ import React, { createContext, useContext, useState, type ReactNode } from 'reac
 import type { SkipOption } from '@/types/index';
 
 type Step = {
+    icon?: React.ReactNode;
     title: string;
     isCompleted: boolean;
     isCurrent: boolean;
