@@ -33,7 +33,7 @@ export default function SkipCard({ skip, selected, onSelect }: Props) {
           src={`/skip-images/${skip.size}-yarder-skip.jpg`} // Placeholder image path, replace with actual image source
           alt={`${skip.size} yard skip`}
           className="object-cover rounded-md w-full h-full shadow-sm"
-          loading="lazy"
+          // loading="lazy"
           onError={(e) => {
             e.currentTarget.src =
               "https://via.placeholder.com/400x200.png?text=No+Image+Available";
